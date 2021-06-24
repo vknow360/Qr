@@ -23,3 +23,4 @@ Returns a list of supported Bar code formats which can be either decoded or enco
 
 ### External Links
 https://community.appinventor.mit.edu/t/qr-read-and-create-qr-bar-code-offline/5432 <br>
+https://community.kodular.io/t/qr-read-and-create-bar-code-offline/54983

@@ -35,7 +35,7 @@ public class Qr extends AndroidNonvisibleComponent {
     public Activity activity;
     public Context context;
     public boolean useAdditionalDecoders = false;
-    public SymbolShapeHint shapeHint;
+    public SymbolShapeHint shapeHint = SymbolShapeHint.FORCE_NONE;
     public Qr(ComponentContainer container) {
         super(container.$form());
         context = container.$context();
@@ -196,9 +196,6 @@ public class Qr extends AndroidNonvisibleComponent {
             return Bitmap.createBitmap(codeWidth, codeHeight, Bitmap.Config.ARGB_8888);
         }
     }
-  /*
-    credits to https://github.com/AyoubDev-DevYB/DevYb-QR-Logo
-  */
     private Bitmap mergeBitmaps(Bitmap logo, Bitmap qrcode) {
         Bitmap combined = Bitmap.createBitmap(qrcode.getWidth(), qrcode.getHeight(), qrcode.getConfig());
         android.graphics.Canvas canvas = new android.graphics.Canvas(combined);

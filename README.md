@@ -1,8 +1,8 @@
 # Qr
 Create and read barcodes (Extension for MIT AI2 and its distros)
 
-**Latest Version:** 5.1 <br>
-**Last Updated:** April 24, 2021
+**Latest Version:** 5.2 <br>
+**Last Updated:** June 04, 2023
 
 ### Blocks
 ![image](https://user-images.githubusercontent.com/41724811/123247675-c5336f80-d504-11eb-94ea-15e05aded912.png)
@@ -22,5 +22,6 @@ Tries to decode BarCode and invokes event 'BarCodeDecoded' with result and bar f
 Returns a list of supported Bar code formats which can be either decoded or encoded <br>
 
 ### External Links
+https://sunnythedeveloper.in/qr-create-and-read-barcodes-offline <br>
 https://community.appinventor.mit.edu/t/qr-read-and-create-qr-bar-code-offline/5432 <br>
 https://community.kodular.io/t/qr-read-and-create-bar-code-offline/54983

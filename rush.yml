@@ -1,0 +1,36 @@
+# For a detailed info on this file and supported fields, check out the below link:
+# https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: Qr
+description: An extension to create (with logo) and read barcode offline<br>Developed by <a href=https://sunnythedeveloper.in>Sunny Gupta
+
+version:
+  number: auto
+  name: '5.3'
+
+authors:
+  - vknow360
+
+build:
+  release:
+    # Optimizes the extension on every release build.
+    optimize: true
+
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: true
+    desugar_deps: true
+
+homepage: https://sunnythedeveloper.in/qr-create-and-read-barcodes-offline
+
+assets:
+  # Extension icon. This can be a URL or a local image in 'assets' folder.
+  icon: https://res.cloudinary.com/andromedaviewflyvipul/image/upload/c_scale,h_20,w_20/v1571472765/ktvu4bapylsvnykoyhdm.png
+  # Extension assets.
+  # other:
+  #   - my_awesome_asset.anything
+
+# Extension dependencies (JAR).
+deps:
+   - zxing-3.4.jar
